@@ -22,6 +22,10 @@
 		6A54B3E51EC326A6005C570B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A54B3E41EC326A6005C570B /* Assets.xcassets */; };
 		6A54B3E81EC326A6005C570B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A54B3E61EC326A6005C570B /* LaunchScreen.storyboard */; };
 		6A54B3F41EC41801005C570B /* iOS_annotation_collisionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A54B3F31EC41801005C570B /* iOS_annotation_collisionUITests.m */; };
+		6A54B4021EC437A6005C570B /* marker_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A54B3FD1EC437A6005C570B /* marker_blue@2x.png */; };
+		6A54B4031EC437A6005C570B /* MyTextAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A54B3FF1EC437A6005C570B /* MyTextAnnotation.m */; };
+		6A54B4041EC437A6005C570B /* MyTextAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A54B4011EC437A6005C570B /* MyTextAnnotationView.m */; };
+		DF1ACE06308854B1E83BAE14 /* libPods-iOS-annotation-collision-swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD22F5C83008DE7B2F4C921 /* libPods-iOS-annotation-collision-swift.a */; };
 		FF6C35009E85B97391529CE0 /* libPods-iOS-annotation-collision.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 801887DF4BE1AFDE15027DE5 /* libPods-iOS-annotation-collision.a */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AA053352E0E94B8BB197FC8 /* Pods-iOS-annotation-collision-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-annotation-collision-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-annotation-collision-swift/Pods-iOS-annotation-collision-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		3FD22F5C83008DE7B2F4C921 /* libPods-iOS-annotation-collision-swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-annotation-collision-swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0F14D5CDBF2FA2D9A8E6BC /* Pods-iOS-annotation-collision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-annotation-collision.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-annotation-collision/Pods-iOS-annotation-collision.release.xcconfig"; sourceTree = "<group>"; };
 		6A54B3B51EC2FBF2005C570B /* iOS-annotation-collision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-annotation-collision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A54B3B91EC2FBF2005C570B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,8 +68,15 @@
 		6A54B3F11EC41801005C570B /* iOS-annotation-collisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-annotation-collisionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A54B3F31EC41801005C570B /* iOS_annotation_collisionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_annotation_collisionUITests.m; sourceTree = "<group>"; };
 		6A54B3F51EC41801005C570B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A54B3FB1EC43769005C570B /* Swift-Bridge-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridge-Header.h"; sourceTree = "<group>"; };
+		6A54B3FD1EC437A6005C570B /* marker_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker_blue@2x.png"; sourceTree = "<group>"; };
+		6A54B3FE1EC437A6005C570B /* MyTextAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextAnnotation.h; sourceTree = "<group>"; };
+		6A54B3FF1EC437A6005C570B /* MyTextAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextAnnotation.m; sourceTree = "<group>"; };
+		6A54B4001EC437A6005C570B /* MyTextAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextAnnotationView.h; sourceTree = "<group>"; };
+		6A54B4011EC437A6005C570B /* MyTextAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextAnnotationView.m; sourceTree = "<group>"; };
 		801887DF4BE1AFDE15027DE5 /* libPods-iOS-annotation-collision.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-annotation-collision.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D4A76EA5281EB8FB7320CE /* Pods-iOS-annotation-collision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-annotation-collision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-annotation-collision/Pods-iOS-annotation-collision.debug.xcconfig"; sourceTree = "<group>"; };
+		F87D173FB8E782BB246A4FEA /* Pods-iOS-annotation-collision-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-annotation-collision-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-annotation-collision-swift/Pods-iOS-annotation-collision-swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF1ACE06308854B1E83BAE14 /* libPods-iOS-annotation-collision-swift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				801887DF4BE1AFDE15027DE5 /* libPods-iOS-annotation-collision.a */,
+				3FD22F5C83008DE7B2F4C921 /* libPods-iOS-annotation-collision-swift.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -105,6 +120,8 @@
 			children = (
 				A4D4A76EA5281EB8FB7320CE /* Pods-iOS-annotation-collision.debug.xcconfig */,
 				5F0F14D5CDBF2FA2D9A8E6BC /* Pods-iOS-annotation-collision.release.xcconfig */,
+				2AA053352E0E94B8BB197FC8 /* Pods-iOS-annotation-collision-swift.debug.xcconfig */,
+				F87D173FB8E782BB246A4FEA /* Pods-iOS-annotation-collision-swift.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -163,8 +180,14 @@
 		6A54B3DC1EC326A6005C570B /* iOS-annotation-collision-swift */ = {
 			isa = PBXGroup;
 			children = (
+				6A54B3FD1EC437A6005C570B /* marker_blue@2x.png */,
+				6A54B3FE1EC437A6005C570B /* MyTextAnnotation.h */,
+				6A54B3FF1EC437A6005C570B /* MyTextAnnotation.m */,
+				6A54B4001EC437A6005C570B /* MyTextAnnotationView.h */,
+				6A54B4011EC437A6005C570B /* MyTextAnnotationView.m */,
 				6A54B3DD1EC326A6005C570B /* AppDelegate.swift */,
 				6A54B3DF1EC326A6005C570B /* ViewController.swift */,
+				6A54B3FB1EC43769005C570B /* Swift-Bridge-Header.h */,
 				6A54B3E11EC326A6005C570B /* Main.storyboard */,
 				6A54B3E41EC326A6005C570B /* Assets.xcassets */,
 				6A54B3E61EC326A6005C570B /* LaunchScreen.storyboard */,
@@ -209,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A54B3EA1EC326A6005C570B /* Build configuration list for PBXNativeTarget "iOS-annotation-collision-swift" */;
 			buildPhases = (
+				89980D6940E1F48E1FA066BF /* [CP] Check Pods Manifest.lock */,
 				6A54B3D71EC326A6005C570B /* Sources */,
 				6A54B3D81EC326A6005C570B /* Frameworks */,
 				6A54B3D91EC326A6005C570B /* Resources */,
+				D8CC79C406779BA529DC7245 /* [CP] Embed Pods Frameworks */,
+				11B3E02C5D6397F0403E9CB1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +284,7 @@
 					6A54B3DA1EC326A6005C570B = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = YMJ372W38W;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Manual;
 					};
 					6A54B3F01EC41801005C570B = {
@@ -304,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A54B4021EC437A6005C570B /* marker_blue@2x.png in Resources */,
 				6A54B3E81EC326A6005C570B /* LaunchScreen.storyboard in Resources */,
 				6A54B3E51EC326A6005C570B /* Assets.xcassets in Resources */,
 				6A54B3E31EC326A6005C570B /* Main.storyboard in Resources */,
@@ -320,6 +348,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		11B3E02C5D6397F0403E9CB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-annotation-collision-swift/Pods-iOS-annotation-collision-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89980D6940E1F48E1FA066BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		8DF819D74E182B03B3A33208 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -348,6 +406,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8CC79C406779BA529DC7245 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-annotation-collision-swift/Pods-iOS-annotation-collision-swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E1E18C363D7C0532C6B9787F /* [CP] Embed Pods Frameworks */ = {
@@ -386,6 +459,8 @@
 			files = (
 				6A54B3E01EC326A6005C570B /* ViewController.swift in Sources */,
 				6A54B3DE1EC326A6005C570B /* AppDelegate.swift in Sources */,
+				6A54B4041EC437A6005C570B /* MyTextAnnotationView.m in Sources */,
+				6A54B4031EC437A6005C570B /* MyTextAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,8 +643,10 @@
 		};
 		6A54B3EB1EC326A6005C570B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA053352E0E94B8BB197FC8 /* Pods-iOS-annotation-collision-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = YMJ372W38W;
 				INFOPLIST_FILE = "iOS-annotation-collision-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -578,6 +655,7 @@
 				PROVISIONING_PROFILE = "dc33f640-6181-4574-b00d-9cd2874a7f9a";
 				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS-annotation-collision-swift/Swift-Bridge-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -585,8 +663,10 @@
 		};
 		6A54B3EC1EC326A6005C570B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F87D173FB8E782BB246A4FEA /* Pods-iOS-annotation-collision-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = YMJ372W38W;
 				INFOPLIST_FILE = "iOS-annotation-collision-swift/Info.plist";
@@ -595,6 +675,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a892512d-fe94-4702-b716-0b66880b936d";
 				PROVISIONING_PROFILE_SPECIFIER = openPlatformInhouse;
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS-annotation-collision-swift/Swift-Bridge-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};
@@ -665,6 +746,7 @@
 				6A54B3F91EC41801005C570B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -5,6 +5,6 @@ target 'iOS-annotation-collision' do
     pod 'AMap3DMap'
 end
 
-#target 'iOS-annotation-collision-swift' do 
-#    pod 'AMap3DMap'
-#end
+target 'iOS-annotation-collision-swift' do 
+    pod 'AMap3DMap'
+end

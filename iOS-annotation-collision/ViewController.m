@@ -121,6 +121,7 @@
 
 #pragma mark - 碰撞检测
 
+//碰撞检测
 - (void)processingCollisionDetection
 {
     NSMutableArray *showedAnnos = [NSMutableArray array];

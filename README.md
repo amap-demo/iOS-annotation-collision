@@ -84,5 +84,55 @@
 ```
 #### swift
 ```
-暂无
+//MARK: - 碰撞检测
+    func processingCollisionDetection() {
+        var showedAnnos: [MyTextAnnotation] = []
+        
+        for myAnno1 in self.collisionAnnotations {
+            let myView1: MyTextAnnotationView? = self.mapView.view(for: myAnno1) as? MyTextAnnotationView
+            
+            if myView1 == nil {
+                continue
+            }
+            
+            var isRightCollision = false
+            var isLeftCollision = false
+            
+            for myAnno2 in showedAnnos {
+                if isRightCollision && isLeftCollision {
+                    break
+                }
+                
+                let myView2: MyTextAnnotationView? = self.mapView.view(for: myAnno2) as? MyTextAnnotationView
+                
+                assert(myView2 != nil)
+                
+                if !isRightCollision {
+                    if myView1!.rightRect().intersects(myView2!.showedRect()) {
+                        isRightCollision = true
+                    }
+                }
+                
+                if !isLeftCollision {
+                    if myView1!.leftRect().intersects(myView2!.showedRect()) {
+                        isLeftCollision = true
+                    }
+                }
+            } //end for showedAnnos
+            
+            if !isRightCollision {
+                myView1!.direction = MyTextAnnotationViewDirection.right
+                showedAnnos.append(myAnno1)
+            }
+            else if !isLeftCollision {
+                myView1!.direction = MyTextAnnotationViewDirection.left
+                showedAnnos.append(myAnno1)
+            }
+            else {
+                myView1!.direction = .none
+            }
+        }
+        
+    }
+
 ```
