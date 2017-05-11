@@ -21,8 +21,19 @@
 		6A54B3E31EC326A6005C570B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A54B3E11EC326A6005C570B /* Main.storyboard */; };
 		6A54B3E51EC326A6005C570B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A54B3E41EC326A6005C570B /* Assets.xcassets */; };
 		6A54B3E81EC326A6005C570B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A54B3E61EC326A6005C570B /* LaunchScreen.storyboard */; };
+		6A54B3F41EC41801005C570B /* iOS_annotation_collisionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A54B3F31EC41801005C570B /* iOS_annotation_collisionUITests.m */; };
 		FF6C35009E85B97391529CE0 /* libPods-iOS-annotation-collision.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 801887DF4BE1AFDE15027DE5 /* libPods-iOS-annotation-collision.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A54B3F61EC41801005C570B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A54B3AD1EC2FBF2005C570B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A54B3B41EC2FBF2005C570B;
+			remoteInfo = "iOS-annotation-collision";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5F0F14D5CDBF2FA2D9A8E6BC /* Pods-iOS-annotation-collision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-annotation-collision.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-annotation-collision/Pods-iOS-annotation-collision.release.xcconfig"; sourceTree = "<group>"; };
@@ -48,6 +59,9 @@
 		6A54B3E41EC326A6005C570B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A54B3E71EC326A6005C570B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A54B3E91EC326A6005C570B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A54B3F11EC41801005C570B /* iOS-annotation-collisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-annotation-collisionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A54B3F31EC41801005C570B /* iOS_annotation_collisionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_annotation_collisionUITests.m; sourceTree = "<group>"; };
+		6A54B3F51EC41801005C570B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		801887DF4BE1AFDE15027DE5 /* libPods-iOS-annotation-collision.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-annotation-collision.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D4A76EA5281EB8FB7320CE /* Pods-iOS-annotation-collision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-annotation-collision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-annotation-collision/Pods-iOS-annotation-collision.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +76,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6A54B3D81EC326A6005C570B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A54B3EE1EC41801005C570B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -93,6 +114,7 @@
 			children = (
 				6A54B3B71EC2FBF2005C570B /* iOS-annotation-collision */,
 				6A54B3DC1EC326A6005C570B /* iOS-annotation-collision-swift */,
+				6A54B3F21EC41801005C570B /* iOS-annotation-collisionUITests */,
 				6A54B3B61EC2FBF2005C570B /* Products */,
 				67E46CC6F6270562E3D85498 /* Pods */,
 				35E55EABADF7980D35B7F939 /* Frameworks */,
@@ -104,6 +126,7 @@
 			children = (
 				6A54B3B51EC2FBF2005C570B /* iOS-annotation-collision.app */,
 				6A54B3DB1EC326A6005C570B /* iOS-annotation-collision-swift.app */,
+				6A54B3F11EC41801005C570B /* iOS-annotation-collisionUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,6 +173,15 @@
 			path = "iOS-annotation-collision-swift";
 			sourceTree = "<group>";
 		};
+		6A54B3F21EC41801005C570B /* iOS-annotation-collisionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A54B3F31EC41801005C570B /* iOS_annotation_collisionUITests.m */,
+				6A54B3F51EC41801005C570B /* Info.plist */,
+			);
+			path = "iOS-annotation-collisionUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,6 +222,24 @@
 			productReference = 6A54B3DB1EC326A6005C570B /* iOS-annotation-collision-swift.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6A54B3F01EC41801005C570B /* iOS-annotation-collisionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A54B3FA1EC41801005C570B /* Build configuration list for PBXNativeTarget "iOS-annotation-collisionUITests" */;
+			buildPhases = (
+				6A54B3ED1EC41801005C570B /* Sources */,
+				6A54B3EE1EC41801005C570B /* Frameworks */,
+				6A54B3EF1EC41801005C570B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A54B3F71EC41801005C570B /* PBXTargetDependency */,
+			);
+			name = "iOS-annotation-collisionUITests";
+			productName = "iOS-annotation-collisionUITests";
+			productReference = 6A54B3F11EC41801005C570B /* iOS-annotation-collisionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,6 +260,12 @@
 						DevelopmentTeam = YMJ372W38W;
 						ProvisioningStyle = Manual;
 					};
+					6A54B3F01EC41801005C570B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Manual;
+						TestTargetID = 6A54B3B41EC2FBF2005C570B;
+					};
 				};
 			};
 			buildConfigurationList = 6A54B3B01EC2FBF2005C570B /* Build configuration list for PBXProject "iOS-annotation-collision" */;
@@ -227,6 +283,7 @@
 			targets = (
 				6A54B3B41EC2FBF2005C570B /* iOS-annotation-collision */,
 				6A54B3DA1EC326A6005C570B /* iOS-annotation-collision-swift */,
+				6A54B3F01EC41801005C570B /* iOS-annotation-collisionUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +307,13 @@
 				6A54B3E81EC326A6005C570B /* LaunchScreen.storyboard in Resources */,
 				6A54B3E51EC326A6005C570B /* Assets.xcassets in Resources */,
 				6A54B3E31EC326A6005C570B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A54B3EF1EC41801005C570B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +389,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6A54B3ED1EC41801005C570B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A54B3F41EC41801005C570B /* iOS_annotation_collisionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A54B3F71EC41801005C570B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A54B3B41EC2FBF2005C570B /* iOS-annotation-collision */;
+			targetProxy = 6A54B3F61EC41801005C570B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6A54B3C11EC2FBF2005C570B /* Main.storyboard */ = {
@@ -520,6 +600,34 @@
 			};
 			name = Release;
 		};
+		6A54B3F81EC41801005C570B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "iOS-annotation-collisionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-annotation-collisionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc33f640-6181-4574-b00d-9cd2874a7f9a";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				TEST_TARGET_NAME = "iOS-annotation-collision";
+			};
+			name = Debug;
+		};
+		6A54B3F91EC41801005C570B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "iOS-annotation-collisionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-annotation-collisionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc33f640-6181-4574-b00d-9cd2874a7f9a";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				TEST_TARGET_NAME = "iOS-annotation-collision";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -546,6 +654,15 @@
 			buildConfigurations = (
 				6A54B3EB1EC326A6005C570B /* Debug */,
 				6A54B3EC1EC326A6005C570B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A54B3FA1EC41801005C570B /* Build configuration list for PBXNativeTarget "iOS-annotation-collisionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A54B3F81EC41801005C570B /* Debug */,
+				6A54B3F91EC41801005C570B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
